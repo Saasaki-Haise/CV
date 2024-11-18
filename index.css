@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}
+
+/* SECTION */
+section {
+    background-color: #424e5e;
+    color: whitesmoke;
+    padding: 10px;
+    width: 30%;
+}
+
+section h1 {
+    font-size: 45px;
+    margin: 10px;
+}
+
+section h2 {
+    color: rgb(137, 137, 137);
+}
+
+#presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section #presentation #photo {
+    background-image: url("https://coloriage.info/images/ccovers/1496768847one-piece-luffy-by-alice-wani.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid  rgb(137, 137, 137);
+    box-shadow: 2px 1px 10px rgb(137, 137, 137);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: 0.75s;
+}
+
+section #presentation #photo:hover {
+    background-image: url("https://cdn-uploads.gameblog.fr/img/news/437782_64c1260b7f81f.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.05);
+    
+} 
+
+section #description, section #contact, section #competence, section #interest {
+    margin-top: 60px;
+}
+
+section #description h3 {
+    margin: 0;
+}
+
+section #description p {
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+section #contact ul li {
+    display: flex;
+    align-items: center;
+}
+
+section #contact img {
+    margin-right: 30px;
+    height: 25px;
+}
+
+section #competence ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress  .bar {
+    height: 20px;
+    border-radius: 10px;
+    
+}
+
+.progress {
+    border: 2px solid #6594c3;
+    border-radius: 12px;
+    width: 200px;
+}
+
+.bar {
+    background-color: #5baefcae;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.htmlcss {
+    width: 90%;
+}
+
+.js {
+    width: 70%;
+}
+
+.pyt {
+    width: 50%;
+}
+
+/* MAIN */
+main {
+    background-color: whitesmoke;
+    padding: 50px;
+    width: 70%;
+}
+
+.titre1 {
+    padding: 10px;
+    background-color: #424e5e;
+    color: whitesmoke;
+}
+
+main h2 {
+    color: grey;
+    font-style: italic;
+}
+
+main h3 {
+    color: #424e5e;
+}
+
+main .experience {
+    padding: 5px;
+    margin: 10px;
+}
+
+main .experience h2 ,main .experience h3, main .experience p, main .experience ul {
+    margin: 5px;
+}
+
+main .formation {
+    padding: 5px;
+    margin: 10px;
+}
+
+main .formation h2 ,main .formation h3, main .formation p, main .formation ul {
+    margin: 5px;
+}
+
+main #langue li{
+    display : flex;
+    align-items: center;
+}
+
+main #langue li img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+main #boutton {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+main #boutton button {
+    border: 1px solid #424e5e;
+    background-color: #424e5e;
+    border-radius: 5px;
+    height: 30px;
+    width: 40px;
+}
